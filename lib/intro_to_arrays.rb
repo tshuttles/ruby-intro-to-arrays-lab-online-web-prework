@@ -21,13 +21,13 @@ def last_element(array)
   array[-1]
 end
 
-def first_element_with_array_methods(first_country)
-  first_country = ["Thailand", 2, 3]
+def first_element_with_array_methods(array)
+  array = ["Thailand", 2, 3]
   array.first
 end 
 
-def last_element_with_array_methods(last_country)
-  last_country = [1, 2, "Myanmar"]
+def last_element_with_array_methods(array)
+  array = [1, 2, "Myanmar"]
   array.last
 end
 
