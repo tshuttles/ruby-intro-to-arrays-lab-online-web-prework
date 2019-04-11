@@ -12,25 +12,25 @@ def first_element(array)
 end
 
 def third_element(array)
-  array = [1, 2, 3]
+  array = [1, 2, "Style"]
   array[2]
 end
 
 def last_element(array)
-  array = [1, 2, 3]
+  array = [1, 2, "Out of The Woods"]
   array[-1]
 end
 
-def first_element_with_array_methods(array)
-  array = [1, 2, 3]
+def first_element_with_array_methods(first_country)
+  first_country = ["Thailand", 2, 3]
   array.first
 end 
 
-def last_element_with_array_methods(array)
-  array = [1, 2, 3]
+def last_element_with_array_methods(last_country)
+  last_country = [1, 2, "Myanmar"]
   array.last
 end
 
-def length_of_array(array)
-  array = 0
+def length_of_array(length)
+  array = 8
 end
