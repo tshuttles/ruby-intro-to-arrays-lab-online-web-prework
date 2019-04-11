@@ -8,5 +8,5 @@ end
 
 def first_element
   array = [1, 2]
-  array[1]
+  array[0]
 end
